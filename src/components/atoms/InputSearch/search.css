@@ -1,0 +1,9 @@
+.search {
+    background-color: transparent;
+    border: 0;
+   caret-color: white;
+}
+
+input:focus {  
+    outline: none;
+}
