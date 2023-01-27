@@ -10,10 +10,16 @@
    -webkit-box-orient: vertical;
 }
 
+.icono-details {
+    height: 20px;
+    width: 20px;
+}
+
 .contenedor {
-    background-color: #6d747d;
+    background-color: #6d747d00;
+    height: 100%;
 }
 
 .active {
-    background-color:  #697f9c;
+    background-color:  #006eff29;
 }

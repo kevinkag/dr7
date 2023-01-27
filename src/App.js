@@ -1,8 +1,5 @@
-import logo from './logo.svg';
 import './App.css'
-import { Routes, Switch, Route } from 'react-router-dom';
-import ImageShoesContainer from './components/molecules/ImageShoesContainer';
-import ImageShoesGrid from './components/organism/ImageShoesGrid';
+import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/organism/NavBar';
 import Catalogue from './components/templates/Catalogue';
 

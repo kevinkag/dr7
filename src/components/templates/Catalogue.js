@@ -1,6 +1,5 @@
 import React from 'react'
 import ImageShoesGrid from '../organism/ImageShoesGrid'
-import NavBar from '../organism/NavBar'
 import './catalogue.css'
 
 const Catalogue = () => {

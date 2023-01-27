@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import cart from '../../resources/shopping-cart.svg'
 import cartActive from '../../resources/shopping-cart-active.svg'
-import search from '../../resources/search.svg'
 import './navbar.css'
-import { useDispatch, useSelector } from 'react-redux'
-import { getProductsSelected, getStatusBar } from '../../../store/slices/productsSlice'
+import { useSelector } from 'react-redux'
+import { getProductsSelected } from '../../../store/slices/productsSlice'
 import InputSearch from '../../atoms/InputSearch'
 
 const NavBar = () => {

@@ -1,18 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { useDispatch } from 'react-redux'
-import { fetchAllUsersAsync, setDefault, setSearch } from '../../../store/slices/productsSlice'
+import { setDefault, setSearch } from '../../../store/slices/productsSlice'
 import './search.css'
 
 const InputSearch = () => {
 
-    const [value, setValue] = useState('')
     const dispatch = useDispatch()
 
-    useEffect(() => {
-        if (value === '') {
-            dispatch(fetchAllUsersAsync())
-        }
-    }, [value])
+
 
     const handleOnChange = (e) => {
         dispatch(setSearch(e.target.value))
@@ -25,10 +20,6 @@ const InputSearch = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-    }
-
-    const handleOnSubmit = (e) => {
-        e.preventDefault()
     }
 
     return (
